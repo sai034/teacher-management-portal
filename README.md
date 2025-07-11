@@ -4,6 +4,11 @@ A modern, responsive, and user-friendly web application for managing teachers wi
 
 ---
 
+### 🎬 Live Demo Preview
+
+<video src="./public/demo.mp4" controls width="600"></video>
+
+
 ## 🚀 Features
 
 ### ✅ Responsive and User-Friendly Layout

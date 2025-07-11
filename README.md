@@ -4,9 +4,9 @@ A modern, responsive, and user-friendly web application for managing teachers wi
 
 ---
 
-### 🎬 Live Demo Preview
+### 🎬 Demo
 
-<video src="./public/demo.mp4" controls width="600"></video>
+[▶️ Watch Demo](https://github.com/sai034/teacher-management-portal/raw/main/public/demo.mp4)
 
 
 ## 🚀 Features

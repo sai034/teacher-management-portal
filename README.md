@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👩‍🏫 Teacher Management Portal
 
-## Getting Started
+A modern, responsive, and user-friendly web application for managing teachers with ease. Designed with a clean UI and seamless UX for administrators and educational institutions.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+### ✅ Responsive and User-Friendly Layout
+- Built to work flawlessly across devices — desktop, tablet, and mobile.
+
+### 🔐 Sign-In Page
+- Visually appealing and accessible login interface.
+- Optimized for fast, secure access across all screen sizes.
+
+### 📚 Sidebar Navigation
+- Responsive and engaging sidebar layout.
+- Intuitive icons and labels for quick access to key sections.
+
+### 🧭 Header Design
+- Clean and well-structured header.
+- Includes branding, navigation controls, and theme toggling.
+
+### 🔍 Search Filters
+Robust search capabilities with multiple filtering options:
+- 🔤 Search by **Name** or **Email**
+- 📚 Filter by **Subjects**
+- 🚦 Filter by **Status**
+- 🧑‍🏫 Filter by **Roles**
+
+### 📊 Responsive Table Layout
+- Modern and mobile-friendly table design.
+- Smooth scrolling and column adaptation on smaller screens.
+
+### 🛠️ Action Buttons
+Neatly designed and accessible action buttons for:
+- ➕ Add
+- ✏️ Edit
+- 📤 Send
+- 🗑️ Delete
+
+### 🎨 Theme Customization
+- Toggle between **Dark Mode** and **Light Mode** for personalized viewing.
+
+### 🔓 Logout Functionality
+- Secure and intuitive logout flow to ensure data privacy and session control.
+
+---
+
+## 🧱 Tech Stack
+
+- **Next.js (TypeScript)**
+- **React**
+- **Tailwind CSS** (or your UI framework)
+- **GitHub Pages** for deployment
+
+---
+
+## 📦 Getting Started
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Build the app for production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Preview the static site
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run preview
+```

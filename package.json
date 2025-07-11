@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
+    "preview": "npx serve out",
     "type-check": "tsc --noEmit",
     "lint": "next lint"
   },
